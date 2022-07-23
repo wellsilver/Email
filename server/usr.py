@@ -1,8 +1,10 @@
+import toml
 def check(usr):
-  # for demo
-  if usr == "cool_boi99":
+  try:
+    open(f'users/{usr}.toml').close()
     return True
-  return False
-def record(usr,msg):
-  print(f"{usr} IS EPIC!!!!! {msg}")
-  return
+  except:
+    return False
+def record(usr):
+  k=toml.load(open(f"users/{usr}.toml"))
+  print(k)

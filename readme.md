@@ -30,6 +30,12 @@ size - size of bytes in email, must be int
 another ``okay`` response but only 2 potential errors (1,4)
 
 ``<messsage>`` duh
-## notes
+## maybe
 
-there will be an extremely long cooldown as its a back and forth thing and is viable for people with extremely slow internet speeds
+to verify emails use domains?
+
+im sure domains would stay the same just how.
+
+maybe sender will re-connect but using the domain?
+
+btw instead of domain@user it will be like domain:user for the difference
